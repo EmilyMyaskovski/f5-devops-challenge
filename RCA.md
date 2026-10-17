@@ -71,7 +71,7 @@ The script was tracked with file mode `100644` instead of `100755`, so the execu
 ### Fix
 Ran `git update-index --chmod=+x scripts/run-tests.sh` to preserve the executable permission in Git.
 
-Verified that the file mode changed to `100755`. Final verification in GitHub Actions is pending.
+Verified that the file mode changed to `100755`. The GitHub Actions CI Pipeline completed successfully, with all checks passing.
 
 ---
 
